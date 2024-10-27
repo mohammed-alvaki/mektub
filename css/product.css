@@ -1,0 +1,172 @@
+#breadcrumb-section ul {
+    padding: 0 !important;
+}
+
+#breadcrumb-section .mybreadcrumb {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #f6f6f6;
+}
+
+#breadcrumb-section ol {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#breadcrumb-section.mybreadcrumb i {
+    color: black;
+}
+
+.breadcrumb-item {
+    color: var(--sec-color) !important;
+    font-size: 0.9rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #bbb !important;
+}
+
+h3.pro-title {
+    background-color: var(--pri-color);
+    font-size: 1.5rem !important;
+    border-radius: 10px;
+}
+
+#product-section .container .myRow {
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+#product-section .img-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#product-section .img-container img {
+    width: 100%;
+    cursor: zoom-in;
+}
+
+#product-section .zoom-icon {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+#product-section input.count {
+    width: 60px;
+    direction: rtl;
+}
+
+#product-section .btnAdd {
+    background-image: linear-gradient(to right, var(--sec-color), var(--pri-color));
+    color: white !important;
+    font-weight: bold;
+    border: 0;
+    padding: 2px 8px;
+}
+
+#product-section .demo .pri {
+    color: rgb(208, 196, 129);
+    font-size: 1.2rem;
+}
+
+#product-section .demo a {
+    text-decoration: none;
+    color: var(--pri-color);
+}
+
+.tab-pane {
+    border-radius: 5px;
+}
+
+.tab-pane h5 {
+    font-size: 1rem;
+}
+
+.tab-pane :where(p, strong, span) {
+    font-size: 0.85rem;
+}
+
+/* ------------------------------ */
+
+#product-section .img-cont {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#product-section .img-cont img {
+    aspect-ratio: 1/1;
+}
+
+#product-section a {
+    text-decoration: none !important;
+}
+
+#product-section .pr {
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#product-section .dis {
+    background-color: white;
+}
+
+#product-section h5 {
+    color: var(--pri-color);
+    font-size: 1.1rem;
+}
+
+#product-section .op {
+    color: var(--pri-color);
+}
+
+#product-section .np {
+    color: rgb(194, 194, 194);
+}
+
+#product-section .add {
+    background-color: var(--pri-color);
+    font-size: 0.8rem;
+    width: fit-content;
+    padding: 2px 5px;
+}
+
+#product-section .accounts a {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#product-section .accounts a:first-child {
+    background-color: #25D366;
+}
+
+#product-section .accounts a:nth-child(2) {
+    background-color: black;
+}
+
+#product-section .accounts a:nth-child(3) {
+    background-color: #4267B2;
+}
+
+#product-section .accounts a i {
+    color: white;
+    font-size: 25px;
+}
+
+#product-section .test-img {
+    width: 150px;
+}
+
+#product-section .test-img img {
+    width: 100%;
+    height: 100%;
+}

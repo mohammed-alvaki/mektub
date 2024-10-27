@@ -1,0 +1,112 @@
+#breadcrumb-section ul {
+    padding: 0 !important;
+}
+
+#breadcrumb-section .mybreadcrumb {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #f6f6f6;
+}
+
+#breadcrumb-section ol {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#breadcrumb-section .mybreadcrumb i {
+    color: black;
+}
+
+#breadcrumb-section .breadcrumb-item {
+    color: var(--sec-color) !important;
+    font-size: 0.9rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #bbb !important;
+}
+
+#store-section h3 {
+    color: var(--pri-color) !important;
+    font-size: 2rem !important;
+    font-weight: bold;
+}
+
+#store-section .line {
+    height: 3px;
+    width: 100%;
+    background-color: var(--sec-color);
+}
+
+#store-section a {
+    text-decoration: none;
+    color: var(--sec-color);
+}
+
+#store-section .img-cont {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#store-section .img-cont img {
+    aspect-ratio: 1/1;
+}
+
+#store-section .pr {
+    border-radius: 10px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.1);
+}
+
+#store-section .orderby {
+    font-size: 0.8rem;
+    padding: 0 5px;
+    border: 1px solid;
+}
+
+#store-section .orderby option {
+    font-size: 0.8rem !important;
+}
+
+
+#store-section .orderby:focus {
+    outline: none;
+}
+
+#store-section .discount:after {
+    content: 'تخفيض';
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -15px;
+    left: -15px;
+    border: 2px solid white;
+    font-size: 0.6rem;
+    background-color: var(--sec-color);
+    color: white;
+    padding: 5px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+#store-section h5 {
+    color: var(--pri-color);
+    font-size: 1.1rem;
+}
+
+#store-section .op {
+    color: var(--pri-color);
+}
+
+#store-section .np {
+    color: rgb(217, 217, 217);
+}
+
+#store-section .btnAdd {
+    background-color: var(--pri-color);
+    padding: 2px 5px;
+    font-size: 0.8rem;
+    width: fit-content;
+}
