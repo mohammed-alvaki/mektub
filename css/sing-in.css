@@ -1,0 +1,119 @@
+#breadcrumb-section ul {
+    padding: 0 !important;
+}
+
+#breadcrumb-section .mybreadcrumb {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #f6f6f6;
+}
+
+#breadcrumb-section ol {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#breadcrumb-section .mybreadcrumb i {
+    color: black;
+}
+
+#breadcrumb-section .breadcrumb-item {
+    color: var(--sec-color) !important;
+    font-size: 0.9rem;
+}
+
+#breadcrumb-section a {
+    text-decoration: none !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #bbb !important;
+}
+
+h3.cat-title {
+    background-color: var(--pri-color);
+    font-size: 1.5rem !important;
+    border-radius: 10px;
+}
+
+#sign-section .img-container img {
+    border-radius: 10px;
+}
+
+#cont-section {
+    padding: 10px 0 50px !important;
+}
+
+#cont-section .myRow {
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+#cont-section .content p {
+    font-size: 0.9rem;
+}
+
+#cont-section .content span {
+    color: var(--light-purple);
+}
+
+#cont-section .content strong {
+    color: var(--pri-color);
+}
+
+#cont-section :where(input,
+    select):not(input[type="radio"]) {
+    border-radius: 5px;
+    padding: 7px;
+    border: 0;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+    border-right: 5px solid var(--sec-color);
+}
+
+#cont-section :where(input,
+    select):focus {
+    outline: 0;
+}
+
+#cont-section .btnSubmit {
+    background-color: var(--sec-color);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: all 0.2s linear;
+}
+
+#cont-section .btnSubmit:hover {
+    background-color: white;
+    color: var(--pri-color) !important;
+}
+
+#cont-section .accounts a {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cont-section .accounts a:first-child {
+    background-color: #25D366;
+}
+
+#cont-section .accounts a:nth-child(2) {
+    background-color: black;
+}
+
+#cont-section .accounts a:nth-child(3) {
+    background-color: #4267B2;
+}
+
+#cont-section .accounts a i {
+    color: white;
+    font-size: 25px;
+}
+
+#cont-section div.rating {
+    font-size: 0.9rem;
+}

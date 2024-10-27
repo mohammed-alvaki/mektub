@@ -1,0 +1,52 @@
+#breadcrumb-section ul {
+    padding: 0 !important;
+}
+
+#breadcrumb-section .mybreadcrumb {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #f6f6f6;
+}
+
+#breadcrumb-section ol {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#breadcrumb-section .mybreadcrumb i {
+    color: black;
+}
+
+.breadcrumb-item {
+    color: var(--sec-color) !important;
+    font-size: 0.9rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #bbb !important;
+}
+
+#dist-section h3 {
+    color: var(--pri-color) !important;
+    font-size: 2rem !important;
+    font-weight: bold;
+}
+
+#dist-section .myCard {
+    background-color: var(--pri-color);
+    border-radius: 15px;
+    height: 350px;
+}
+
+#dist-section .line {
+    height: 3px;
+    width: 100%;
+    background-color: var(--sec-color);
+}
+
+#dist-section .info p {
+    background-color: var(--sec-color);
+    opacity: 0.9;
+    padding: 5px;
+    font-size: 1rem;
+}
